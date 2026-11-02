@@ -1,0 +1,19 @@
+Encrucijadas · v1.0 (2-11-2026)
+Recurso 3D de estudio de Antropología Social y Cultural (UNED, 70021015)
+basado en Moreno Feliu (2014), De lo lejano a lo próximo.
+
+Uso
+- Sitio estático: subir la carpeta tal cual (por ejemplo, a GitHub Pages) y abrir index.html.
+- En local, servirla con un servidor (p. ej. «python3 -m http.server» dentro de la carpeta):
+  abrir index.html directamente desde el disco (file://) impide cargar los módulos JavaScript.
+- Requiere conexión para Three.js 0.160.0 (cdn.jsdelivr.net) y las tipografías (Google Fonts).
+
+Estructura
+- index.html · css/estilos.css
+- js/app.js (interfaz) · js/escena.js (escena 3D) · js/retos.js (motor de retos)
+- datos/: estaciones-1..4.js (15 estaciones), complementos.js (test, glosario, palabras clave,
+  fragmentos de comentario), estudio.js (guía), referencias.js
+Corregir contenido solo exige editar datos/.
+
+Progreso del alumnado: solo en el navegador (localStorage). Modo docente: añadir #docente a la URL.
+Licencia del recurso: CC BY-NC 4.0. Requiere revisión docente antes de su uso con alumnado.
